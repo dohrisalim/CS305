@@ -1,1 +1,14 @@
-# CS305
+#	Briefly summarize your client, Artemis Financial, and their software requirements. Who was the client? What issue did they want you to address?
+Artemis Financial, a financial consulting firm that produces individualized financial plans for their clients in the areas of savings, retirement, investments, and insurance, was my customer for this class. To maintain secure interactions, Artemis Financial wanted to add a file verification step to their web application.
+#	What did you do particularly well in identifying their software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall wellbeing?
+When looking for vulnerabilities in the client's project, I believe I did a particularly good job of spotting false positives. It's critical to code safely so that you don't expose your code to vulnerabilities later on in the project's lifecycle. Software Security improves a company's safety and security while also offering them piece of mind that their data is safe and secure.
+#	What about the process of working through the vulnerability assessment did you find challenging or helpful?
+It was difficult for me to accurately identify the areas of vulnerability for the report. To some extent, I believe that every aspect of a project is significant, but that wasn't the assignment's goal.
+#	How did you approach the need to increase layers of security? What techniques or strategies would you use in the future to assess vulnerabilities and determine mitigation techniques?
+I identified some of the most susceptible layers in the client's project and strengthened them to improve the code's weakest link's strength. In the future, I'll likely rely on online CVE databases to help me locate fixes to vulnerabilities.
+#	How did you ensure the code and software application were functional and secure? After refactoring code, how did you check to see whether you introduced new vulnerabilities?
+I verified that the code and application were both functional and secure by doing extensive static and dynamic testing to verify that every use case was addressed and that no dependencies could be exploited. I ran through the same test scenarios after modifying the code to ensure everything was still safe and functional.
+#	What resources, tools, or coding practices did you employ that you might find helpful in future assignments or tasks?
+I found the Maven Dependency checker tool to be useful and I will definitely use it in the future.
+#	Employers sometimes ask for examples of work that you have successfully completed to demonstrate your skills, knowledge, and experience. What from this particular assignment might you want to showcase to a future employer?
+To demonstrate to a prospective employer that I am capable of discovering vulnerabilities inside a codebase, I may consider demonstrating my usage of dependency checkers.
